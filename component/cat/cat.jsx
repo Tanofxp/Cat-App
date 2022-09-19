@@ -48,7 +48,7 @@ const Cat = ( ) => {
             onPress={() => { setIsHungry(true)}}
             disabled={isHungry}
             title={!isHungry ? 'Quieres jugar?' : 'Estoy cansado!'}
-            color={'blue'}
+            color={'#B297B4'}
         />
         </View>
         

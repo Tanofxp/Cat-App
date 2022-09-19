@@ -67,9 +67,9 @@ export default function App() {
     content = <Cat/>
     }else if (durmiendo){
       content = <CatSleep/>
-    } else if(caricia){
-      content = <CatCaricia/>
-    }
+      } else if(caricia){
+        content = <CatCaricia/>
+      }
 
 
   return (
