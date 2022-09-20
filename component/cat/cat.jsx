@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Button, Image, StyleSheet,  View, Text } from 'react-native';
 
-
 const Cat = ( ) => {
     const [isHungry, setIsHungry] = useState(true);
     const [timespetted, setTimespeted] = useState(0);
@@ -11,7 +10,7 @@ const Cat = ( ) => {
             return(
             <View>
                 <Image
-                source={{uri: "https://thumbs.dreamstime.com/z/gato-lleno-con-la-burbuja-y-decir-del-discurso-65261875.jpg"}}
+                source={{uri: "https://i.imgur.com/sZmHfhe.jpg"}}
                 style={{width: 300, height: 300, borderRadius: 200, }}
                 />
             </View>
@@ -20,7 +19,7 @@ const Cat = ( ) => {
             return(
             <View>
                 <Image
-                source={{uri: "https://media.istockphoto.com/vectors/hungry-cat-wants-to-eat-vector-id611194142?s=612x612"}}
+                source={{uri: "https://i.imgur.com/PQgQrZk.jpg"}}
                 style={{width: 300, height: 300, borderRadius: 200, }}
                 />
             </View>)
@@ -63,9 +62,12 @@ const styles = StyleSheet.create({
     
     },
     title:{
+        fontFamily: 'BungeeSpice-Regular', 
+        textAlign:'center',
         fontSize:25,
         marginBottom:20,
         marginTop:20,
+        color:'red',
     
     }, 
 });
